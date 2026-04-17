@@ -7,6 +7,8 @@
 #How it works:
 
 #
-read Name
+name="Sadeeq"
+age="16"
 
-printf "Your name is: %s\n" "$Name"
+printf "Name: %s\n" "$name"
+printf "Age: %d\n" "$age"
