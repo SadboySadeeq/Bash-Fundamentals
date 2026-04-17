@@ -5,7 +5,10 @@
 #Brackets are mostly used for tests, conditions, and expressions
 
 #How it works:
- 
+
+#There are a few types of brackets
+#[ ] > are brackets most basic form, are mainly used as a boolean operator (they check for true or false statements), they can be used with stings and numbers
+#[[]] > are 
 
 name="Sadeeq"
 
