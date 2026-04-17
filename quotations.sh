@@ -11,9 +11,15 @@
 
 #Common mistakes/issues:
 
-#Using single quotes when you need to use a variable
-#Not quoting variables at all
+#Using single quotes when you need to call a variable
+#Not quoting variables at all,when you don't use quotes at all the computer reads your spaces as seperate arugments, 
 #Using double quotes when you want a literal statement
+
+#How to troubleshoot the issues:
+
+#Replace your single quotes with a double quote to call the variable
+#To fix this use use either single or double quotes to fix the issue depending on the context of your script
+#Replace your double quotes with a single quote if you want a literal statement
 
 cost=4.65
 
