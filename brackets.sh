@@ -13,7 +13,9 @@
 
 #Common mistakes:
 
-#
+#Forgetting spaces
+#Not quoting variables in []
+#Using the wrong operator, ex. using [] when dealing with math
 
 name="Sadeeq"
 
