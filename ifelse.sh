@@ -12,3 +12,17 @@
 #fi > used to end the block of code you wrote
 #
 
+
+
+
+
+grade=95
+
+if [ "$grade" -ge 90 ]; then
+  echo "W grade"
+elif [ "$grade" -gt 70 ] && [ "$grade" -lt 80 ]; then
+  echo "atleast push for an 80 gang"
+else
+  echo "Chai"
+fi
+
