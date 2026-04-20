@@ -8,14 +8,21 @@
 
 #There are a few types of brackets
 #[ ] > are brackets most basic form, are mainly used as a boolean operator (they check for true or false statements), they can be used with stings and numbers
-#[[]] > are a more advanced and safer version of []
-#(()) > are used for math operations
+#[[ ]] > are a more advanced and safer version of []
+#((  )) > are used for math operations
 
 #Common mistakes:
 
-#Forgetting spaces
-#Not quoting variables in []
+#Forgetting spaces, ex. if [$name="Sadeeq"]; then 
+#Not quoting variables in [], ex. if [ $name= Sadeeq ]; then 
 #Using the wrong operator, ex. using [] when dealing with math
+
+#How to troubleshoot the mistakes:
+
+#Just add spaces where needed, ex. if [ "$name" = "Sadeeq" ]; then
+#Add the correct quotation to your line, ex. if [ "$name" = "Sadeeq" ]; then
+#Replace the orginal brackets with ((  )) when dealing with math
+
 
 name="Sadeeq"
 
