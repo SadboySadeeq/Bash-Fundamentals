@@ -8,7 +8,12 @@
 
 #There are a few types of brackets
 #[ ] > are brackets most basic form, are mainly used as a boolean operator (they check for true or false statements), they can be used with stings and numbers
-#[[]] > are 
+#[[]] > are a more advanced and safer version of []
+#(()) > are used for math operations
+
+#Common mistakes:
+
+#
 
 name="Sadeeq"
 
