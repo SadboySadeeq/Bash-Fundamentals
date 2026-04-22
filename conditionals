@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#What are conditionals?
+
+#A conditonal checks if something is true or false then runs code based on the result
+
+#How it works
+
+#Conditonals are used inside brackets 
+#if > starts the check
+#then > begings the code block
+#else > optional fallback
+#fi ends the conditional
