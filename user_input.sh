@@ -25,4 +25,5 @@
 #Make sure that you're either using a new varaible or you're expecting the value switch
 #Let the user know what's going on either with a echo or -p
 
-
+read -p "Please enter your name: " name
+echo "$name"
