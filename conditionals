@@ -4,7 +4,7 @@
 
 #A conditonal checks if something is true or false then runs code based on the result
 
-#How it works
+#How it works:
 
 #Conditonals are used inside brackets 
 #if > starts the check
@@ -12,6 +12,17 @@
 #else > optional fallback
 #fi ends the conditional
 
+
+#Common mistakes:
+
+#Using = for numbers, = is used for string comparison, ex, if [ "$grade" = 90 ]; then
+#Forgetting spaces inside brackets, ex. if[$grade -ge 90]; then
+#Forgetting to finish your line with then, ex. if [ "$grade" -ge 90 ]
+#Forgetting to end code with fi, ex. if [ "$grade" -ge 90 ]; then echo "W grade"
+#Not quoting variables, ex. if [ $name = Sadeeq ]; then
+#Using wrong operators for numbers, ex. if [ "$age" > 18 ]; then
+
+#How to troubleshoot the mistakes:
 
 
 
