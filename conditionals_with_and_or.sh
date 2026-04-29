@@ -1,1 +1,48 @@
 #!/bin/bash
+
+#What are conditionals?
+
+#A conditonal checks if something is true or false then runs code based on the result
+
+#How it works:
+
+#Conditonals are used inside brackets 
+#if > starts the check
+#then > begings the code block
+#else > optional fallback
+#fi ends the conditional
+#These are the most common operators:
+# -eq >equal to
+# -ne > not equal to
+# -gt > greater than
+# -lt > less than
+# -ge > greater than or equal
+# -le > less than or equal
+
+#Common mistakes:
+
+#Using = for numbers, = is used for string comparison, ex, if [ "$grade" = 90 ]; then
+#Forgetting spaces inside brackets, ex. if[$grade -ge 90]; then
+#Forgetting to finish your line with then, ex. if [ "$grade" -ge 90 ]
+#Forgetting to end code with fi, ex. if [ "$grade" -ge 90 ]; then echo "W grade"
+#Not quoting variables, ex. if [ $name = Sadeeq ]; then
+#Using wrong operators for numbers, ex. if [ "$grade" > 95 ]; then, > is for string comparison not numbers
+
+#How to troubleshoot the mistakes:
+
+#Replace the = with -eq, ex, if [ "$grade" -eq 90 ]; then
+#Add spaces where needed, ex. if[ $grade -ge 90 ]; then
+#Add a then at the end of the line, ex. if [ "$grade" -ge 90 ]; then
+#Forgetting to end code with fi, ex. if [ "$grade" -ge 90 ]; then echo "W grade"
+#Add the correct quotation depending on the context, ex. [ "$name" = "Sadeeq" ]; then
+#Swap it out for the correct operator, ex. if [ "$grade" -gt 95 ]; then
+
+grade=95
+
+if [ "$grade" -ge 90 ]; then
+  echo "W grade"
+elif [ "$grade" -gt 70 ] && [ "$grade" -lt 80 ]; then
+  echo "atleast push for an 80 gang"
+else
+  echo "Chai"
+fi
