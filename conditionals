@@ -14,17 +14,16 @@
 
 #Common mistakes:
 
-#Forgetting spaces inside brackets, ex. if[$grade -ge 90]; then
-#Forgetting to finish your line with then, ex. if [ "$grade" -ge 90 ]
-#Forgetting to end code with fi, ex. if [ "$grade" -ge 90 ]; then echo "W grade"
+#Forgetting spaces inside brackets, ex. if[$grade = "A"]; then
+#Forgetting to finish your line with then, ex. if [ "$grade" = "A" ]
+#Forgetting to end code with fi, ex. if [ "$grade" = "A" ]; then echo "W grade"
 #Not quoting variables, ex. if [ $name = Sadeeq ]; then
-#Using wrong operators for numbers, ex. if [ "$grade" > 95 ]; then, > is for string comparison not numbers
 
 #How to troubleshoot the mistakes:
 
-#Add spaces where needed, ex. if[ $grade -ge 90 ]; then
-#Add a then at the end of the line, ex. if [ "$grade" -ge 90 ]; then
-#Forgetting to end code with fi, ex. if [ "$grade" -ge 90 ]; then echo "W grade"
+#Add spaces where needed, ex. if[ $grade = "A" ]; then
+#Add a then at the end of the line, ex. if [ "$grade" = "A" ]; then
+#Forgetting to end code with fi, ex. if [ "$grade" = "A" ]; then echo "W grade"
 #Add the correct quotation depending on the context, ex. [ "$name" = "Sadeeq" ]; then
 
 grade="A"
