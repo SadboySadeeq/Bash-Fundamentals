@@ -11,7 +11,12 @@
 #To acess the values use ${array[index]}
 #To acess all values use ${array[@]}, to acess a specific value replace the @ with the index of the value
 
+#Common mistakes:
 
+#Not using quotes
+#Forgetting parentheses
+#Using wrong brackets
+#Mixing up * and @, @ treats each item separately which is better for loops while * treats everything has one string
 
 grades=("A" "B" "C","D","F")
 
