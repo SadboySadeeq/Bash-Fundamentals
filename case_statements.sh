@@ -19,7 +19,12 @@
 #Forgetting $ in variable
 #Not including a a default(*), if theres no match then nothing happens
 
+#How to troubleshoot the mistakes:
 
+#Add ;; after each section
+#Add esac at the end of your case
+#Add $ when calling a variable
+#Add * on your last section
 
 grade="A"
 
