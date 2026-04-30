@@ -12,7 +12,12 @@
 #Stops after ;;
 #If nothing matches then it runs * which is default
 
+#Common Mistakes:
 
+#Forgetting ;; (This will continue to the next case without you knowing)
+#Forgetting esac (This is a syntax error)
+#Forgetting $ in variable
+#Not including a a default(*), if theres no match then nothing happens
 
 
 
