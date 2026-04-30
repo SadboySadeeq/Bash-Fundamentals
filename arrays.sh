@@ -18,6 +18,13 @@
 #Using wrong brackets
 #Mixing up * and @, @ treats each item separately which is better for loops while * treats everything has one string
 
+#How to troubleshot the mistakes:
+
+#Add the correct quotes
+#Add the parentheses where needed
+#Replace wrongly used brackets with the correct ones
+#Swap out the wrong symbol
+
 grades=("A" "B" "C","D","F")
 
 for grade in "${grades[@]}"; do
