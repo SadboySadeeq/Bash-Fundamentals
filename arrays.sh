@@ -10,4 +10,11 @@
 #Each value in a array has an idex(position) starting at 0
 #To acess the values use ${array[index]}
 #To acess all values use ${array[@]}, to acess a specific value replace the @ with the index of the value
-#
+
+
+
+grades=("A" "B" "C","D","F")
+
+for grade in "${grades[@]}"; do
+  echo "$grade"
+done
