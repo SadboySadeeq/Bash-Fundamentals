@@ -12,4 +12,23 @@
 #Stops after ;;
 #If nothing matches then it runs * which is default
 
-#
+
+
+
+
+grade="A"
+
+case $grade in
+  A)
+    echo "W grade"
+    ;;
+  B)
+    echo "Ig it's ight"
+    ;;
+  C)
+    echo "Keep grinding"
+    ;;
+  *)
+    echo "Chai"
+    ;;
+esac
