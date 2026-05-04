@@ -10,7 +10,11 @@
 #Bash doesn't run the code yet
 #When you call the function, the code you wrote runs
 
-#
+#Common mistakes:
+
+#Forgetting to call the function
+#Calling the function before defining it
+#Missing brackets
 
 print_abc()
 {
