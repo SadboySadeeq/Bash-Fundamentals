@@ -6,14 +6,11 @@
 
 #How it works:
 
-#You define the function 
+#You define the function, which stores the code
+#Bash doesn't run the code yet
+#When you call the function, the code you wrote runs
 
-#function_name() {
-  # you right your code here:
-#}
-
-#To run that code you call the function you just right the function name, Ex. function_name
-
+#
 
 print_abc()
 {
