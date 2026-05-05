@@ -4,7 +4,6 @@
 
 #Default values allow bash to assign a backup value for a variable when no value is given
 
-
 #How it works:
 #Bash uses this syntax:
 #${variable:-default}
@@ -16,6 +15,12 @@
 
 #Common mistakes:
 
-#Forgetting ${}
+#Forgetting ${}, ex. echo "$name:-Guest" 
 #Confusing - and :-
 #Not quoting
+
+#How to troubleshoot the mistakes:
+
+#Add ${} where needed, ex. echo "${name:-Guest}"
+#${name-Guest}# only if unset, ${name:-Guest}  # if empty OR unset, USE THEM ACCORDINGLY
+#Add quotes where neeeded
