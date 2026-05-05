@@ -14,3 +14,8 @@
 #Use :- before the default value
 #Works when varigit add able is empty or unset
 
+#Common mistakes:
+
+#Forgetting ${}
+#Confusing - and :-
+#Not quoting
