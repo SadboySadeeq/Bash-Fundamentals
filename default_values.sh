@@ -24,3 +24,7 @@
 #Add ${} where needed, ex. echo "${name:-Guest}"
 #${name-Guest}# only if unset, ${name:-Guest}  # if empty OR unset, USE THEM ACCORDINGLY
 #Add quotes where neeeded
+
+name=""
+
+echo "Hello, ${name:-Guest}!"
