@@ -31,3 +31,10 @@
 #Make sure that what ever your condition is, changes in value to make sure that your loop isn't infinite if you don't intend for it to be
 #Add do/done to your code when needed
 #Make sure to use the correct condition
+
+count=1
+
+while [ "$count" -le 5 ]; do
+  echo "Hello"
+  count=$((count + 1))
+done
