@@ -24,3 +24,10 @@
 #Condition never changes, if your value doesn't change the loop will be infinite
 #Missing do or done, Syntax error
 #Wrong condition, Ex. while [ "$count" > 3 ]; do, this is for sting comparison
+
+#How to troubleshoot the mistakes:
+
+#Make sure you break your loop
+#Make sure that what ever your condition is, changes in value to make sure that your loop isn't infinite if you don't intend for it to be
+#Add do/done to your code when needed
+#Make sure to use the correct condition
