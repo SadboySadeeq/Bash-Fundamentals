@@ -14,3 +14,7 @@
 #Stops when condition becomes false
 
 #How it works (Do while):
+#Loop runs first no matter what
+#Then condition is checked manually
+#break stops the loop
+
