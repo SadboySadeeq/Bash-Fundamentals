@@ -18,3 +18,9 @@
 #Then condition is checked manually
 #break stops the loop
 
+#Common mistakes:
+
+#Infinite loops,runs forever unless you break
+#Condition never changes, if your value doesn't change the loop will be infinite
+#Missing do or done, Syntax error
+#Wrong condition, Ex. while [ "$count" > 3 ]; do, this is for sting comparison
