@@ -14,5 +14,13 @@
 #echo "Hello" outputs: Hello
 #Pipe (|) sends it to cat
 #cat prints it
+#Commands normal use: stdin > input and stdout > output
+#A pipe connects stdout > stdin
+
+#Common mistakes:
+
+#Forgetting spaces, Ex. ls|wc -l (This works but it's hard to read)
+#Using commands that don’t accept stdin
+#Confusing | with >, Ex. ls > file.txt
 
 #
