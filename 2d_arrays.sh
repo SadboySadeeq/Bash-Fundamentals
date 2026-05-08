@@ -10,4 +10,10 @@
 #You turn one row into another array
 #Access column
 
-#
+#Common mistakes:
+
+#Forgetting quotes
+#Splitting issues
+#Wrong indexes
+
+#How to troubleshoot the mistakes:
