@@ -21,3 +21,11 @@
 #Include quotes where needed
 #row=(${grades[0]}) can break if values contain spaces
 #Remember that indexes start at 0
+
+students=("Alex John" "Sam Mike")
+
+echo "${students[0]}"
+
+row=(${students[0]})
+
+echo "${row[1]}"
