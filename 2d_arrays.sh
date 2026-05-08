@@ -12,8 +12,12 @@
 
 #Common mistakes:
 
-#Forgetting quotes
-#Splitting issues
+#Forgetting quotes, ex. grades=(A B C D E F)
+#Splitting issues, ex. row=(${grades[0]})
 #Wrong indexes
 
 #How to troubleshoot the mistakes:
+
+#Include quotes where needed
+#row=(${grades[0]}) can break if values contain spaces
+#Remember that indexes start at 0
