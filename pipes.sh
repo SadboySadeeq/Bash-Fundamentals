@@ -23,4 +23,8 @@
 #Using commands that don’t accept stdin
 #Confusing | with >, Ex. ls > file.txt
 
-#
+#How to troubleshoot the mistakes:
+
+#Add spaces where needed, Ex. ls | wc -l (Much better to read)
+#Use the correct commands that accept stdin
+#ls > file.txt (THis saves to file), ls | wc -l (This sends to another command)
