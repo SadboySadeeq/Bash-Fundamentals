@@ -22,7 +22,7 @@
 #row=(${grades[0]}) can break if values contain spaces
 #Remember that indexes start at 0
 
-students=("Alex John" "Sam Mike")
+students=("John Snow" " Rob Stark")
 
 echo "${students[0]}"
 
