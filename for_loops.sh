@@ -27,3 +27,8 @@
 #Add done to the end of your line
 #Add correct quotes where needed
 #use correct syntax
+
+for fruit in Apple Banana Cherry
+do
+  echo "$fruit"
+done
