@@ -19,4 +19,7 @@
 
 #Common mistakes:
 
-#
+#Accidentally overwriting files
+#Mixing up > and >>
+#Forgetting permissions
+#Redirecting wrong stream
