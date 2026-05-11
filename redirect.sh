@@ -31,3 +31,5 @@
 #Make sure you have permission to the file
 #Redirct correct stream, Ex. ls fakefile 2> errors.txt
 
+echo "Hello world" > message.txt
+cat message.txt
