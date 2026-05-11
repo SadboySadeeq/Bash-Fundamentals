@@ -22,4 +22,12 @@
 #Accidentally overwriting files
 #Mixing up > and >>
 #Forgetting permissions
-#Redirecting wrong stream
+#Redirecting wrong stream, Ex. ls fakefile > errors.txt
+
+#How to troubleshoot the mistakes:
+
+#Make sure you check to see what's getting overwriten better run code
+#> is used to overwrite, >> is used to append
+#Make sure you have permission to the file
+#Redirct correct stream, Ex. ls fakefile 2> errors.txt
+
