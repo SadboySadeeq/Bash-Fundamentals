@@ -20,4 +20,10 @@
 #Forgetting done, loop never ends
 #Not quoting variables
 #Wrong array syntax
-#
+
+#How to troubleshoot the mistakes:
+
+#Add do to your line
+#Add done to the end of your line
+#Add correct quotes where needed
+#use correct syntax
