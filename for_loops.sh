@@ -14,4 +14,10 @@
 #Moves to the next item
 #Repeats until finished
 
+#Common mistakes:
+
+#Forgetting do, it's a syntax error
+#Forgetting done, loop never ends
+#Not quoting variables
+#Wrong array syntax
 #
